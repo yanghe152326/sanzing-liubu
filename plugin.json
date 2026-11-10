@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "sanzing-liubu",
+  "version": "1.0.0",
+  "description": "按零级用户、一级两相、二级三省、三级六部组织智能体工作：先按总原则判断，再人性化分流谋划、审核与交代结果。",
+  "author": {
+    "name": "yanghe152326"
+  },
+  "license": "MIT",
+  "keywords": ["governance", "workflow", "agents", "sanzing-liubu"]
+}
