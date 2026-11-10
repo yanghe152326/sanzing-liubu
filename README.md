@@ -9,6 +9,8 @@ sanzing-liubu/
 ├── plugin.json
 ├── LICENSE
 ├── README.md
+├── logo.png
+├── logo.svg
 └── skills/
     └── sanzing-liubu/
         └── SKILL.md
@@ -16,7 +18,7 @@ sanzing-liubu/
 
 - 插件标识：`sanzing-liubu`（1.0.0）
 - 技能标识：`sanzing-liubu`（对话里标题仍是「智能体三省六部制」）
-- 作者栏暂写为 `yanghe152326`，许可证为 MIT；上架或公开前可按需要修改这两处，并补上 logo。
+- 作者栏暂写为 `yanghe152326`，许可证为 MIT；上架或公开前可按需要修改这两处。
 
 ## 在 Cursor 里本地试装
 
@@ -29,7 +31,6 @@ Grok Bot 这边目前仍使用账号里的共享技能；把本包装成官方�
 ## 若要提交到官方市场
 
 1. 把本目录放到一个公开 Git 仓库。
-2. 按需补上 1:1 的 logo，并在 `plugin.json` 里用相对路径引用。
-3. 到 [Cursor 插件市场提交页](https://cursor.com/marketplace/publish) 提交仓库地址，等待人工审核。市场上架的插件需要开源。
+2. 到 [Cursor 插件市场提交页](https://cursor.com/marketplace/publish) 提交仓库地址，等待人工审核。市场上架的插件需要开源。标识用根目录的 `logo.png`（`https://raw.githubusercontent.com/yanghe152326/sanzing-liubu/main/logo.png`）。
 
 更完整的格式说明见 [Plugins](https://cursor.com/docs/plugins) 和 [Plugins reference](https://cursor.com/docs/reference/plugins)。
